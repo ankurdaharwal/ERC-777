@@ -1,23 +1,23 @@
-###ERC-777 - Ethereum Token Standard
+**ERC-777 - Ethereum Token Standard**
 
     Title: A New Advanced Token Standard
     Author: Ankur Daharwal @an1cu12
     Category: ERC
 
-##ERC(Ethereum Request for Comments)-777
+*ERC(Ethereum Request for Comments)-777*
 
 A New Advanced Token Standard was introduced to establish an evolved Token standard which learned from misconceptions like approve() with a value and the aforementioned send-tokens-to-contract-issue.
 
-##Summary
+**Summary**
 
 Creates a standard interface for a token contract.
 The official repository for this standard can be found at jacquesd/eip777.
 
-##Abstract
+**Abstract**
 
 This standard defines a new way to interact with a Token Contract. This standard takes advantage of ERC-820 to notify contracts and regular addresses when they receive tokens as well as to be compatible with old contracts.
 
-##Motivation
+**Motivation**
 
 This standard tries to improve the widely used ERC-20 token standard. The main advantages of this standard are:
 Uses the same philosophy as Ether in that tokens are sent with send(dest, value, data).
@@ -32,7 +32,7 @@ Every token transaction contains a userData bytes field and a similar operato
 
 It can be used in a backwards compatible way with wallets that do not contain the tokensReceived function.
 
-##Specification
+**Specification**
 
 ERC777Token (Token Contract)
 
@@ -84,7 +84,7 @@ Any address (contract or regular account) CAN register a contract (itself or an 
         ) public;
     }
 
-##Features of ERC777
+**Features of ERC-777**
 
 1) Backwards Compatible
 - Makes it compatible with more important functions of ERC20
@@ -93,7 +93,8 @@ Any address (contract or regular account) CAN register a contract (itself or an 
 3) Sets decimal to default 18
 4) Adds approved operators
 
-Reference Links:
+**Reference Links:**
+
 Medium: https://medium.com/coinmonks/erc-777-a-new-advanced-token-standard-c841788ab3cb
 Github EIP Issues 777: https://github.com/ethereum/EIPs/issues/777
 Github The official repository for this standard: jacquesd/eip777
