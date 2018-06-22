@@ -11,7 +11,7 @@ A New Advanced Token Standard was introduced to establish an evolved Token stand
 **Summary**
 
 Creates a standard interface for a token contract.
-The official repository for this standard can be found at jacquesd/eip777.
+The official repository for this standard can be found at https://github.com/jacquesd/ERC777
 
 **Abstract**
 
@@ -99,4 +99,4 @@ Medium: https://medium.com/coinmonks/erc-777-a-new-advanced-token-standard-c8417
 
 Github EIP Issues 777: https://github.com/ethereum/EIPs/issues/777
 
-Github The official repository for this standard: jacquesd/eip777
+Github The official repository for this standard: https://github.com/jacquesd/ERC777
