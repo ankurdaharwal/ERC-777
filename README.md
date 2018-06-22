@@ -96,5 +96,7 @@ Any address (contract or regular account) CAN register a contract (itself or an 
 **Reference Links:**
 
 Medium: https://medium.com/coinmonks/erc-777-a-new-advanced-token-standard-c841788ab3cb
+
 Github EIP Issues 777: https://github.com/ethereum/EIPs/issues/777
+
 Github The official repository for this standard: jacquesd/eip777
